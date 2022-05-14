@@ -124,7 +124,9 @@ main {
 
 /* Responsive Adjustment */
 
-@media screen and (max-width: 950px) {
+
+
+@media screen and (max-width: 1150px) {
 
     main {
         display: flex;
@@ -136,7 +138,7 @@ main {
     }
 
     .main-img img {
-        height: 400px;
+        height: 450px;
     }
 }
 
