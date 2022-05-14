@@ -13,7 +13,7 @@
     max-width: 1400px;
     min-height: 300px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 5%;
 }
 
 nav {
@@ -124,8 +124,8 @@ main {
 
 /* Responsive Adjustment */
 
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 950px) {
+
     main {
         display: flex;
         flex-direction: column;
@@ -140,7 +140,7 @@ main {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 320px) and (max-width: 410px) {
 
     .main-text {
         text-align: center;
@@ -152,10 +152,6 @@ main {
 
     .main-text button {
         margin: auto;
-    }
-
-    #wrapper {
-        min-width: 365px;
     }
 
     .main-text-footer {
