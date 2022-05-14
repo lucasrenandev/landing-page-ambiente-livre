@@ -50,7 +50,7 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -129,7 +129,7 @@ main {
         display: flex;
         flex-direction: column;
     }
-    
+
     .main-text-footer {
         width: 400px;
     }
