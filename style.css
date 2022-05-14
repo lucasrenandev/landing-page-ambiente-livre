@@ -125,6 +125,10 @@ main {
 /* Responsive Adjustment */
 
 @media screen and (max-width: 800px) {
+    #wrapper {
+        border: 2px solid red;
+        
+    }
     main {
         display: flex;
         flex-direction: column;
@@ -141,7 +145,6 @@ main {
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
     .main-text {
-        padding: 10px;
         text-align: center;
     }
 
@@ -153,8 +156,19 @@ main {
         margin: auto;
     }
 
+    #wrapper {
+        border: 2px solid red;
+        min-width: 365px;
+    }
+
     .main-text-footer {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 330px;
+        ;
     }
 }
 
