@@ -141,7 +141,12 @@ main {
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
     .main-text {
+        padding: 10px;
         text-align: center;
+    }
+
+    .main-text h1 {
+        font-size: 3.2em;
     }
 
     .main-text button {
@@ -149,7 +154,7 @@ main {
     }
 
     .main-text-footer {
-        width: 350px;
+        width: 330px;
     }
 }
 
@@ -159,7 +164,7 @@ main {
     }
 
     .main-text h1 {
-        font-size: 50px;
+        font-size: 3.2em;
     }
 
     .main-text button {
@@ -167,9 +172,12 @@ main {
     }
 
     .main-text-footer {
-        width: 300px;
+        width: 280px;
     }
-
+    
+    .main-text-footer p {
+        font-size: 12px;
+    }
     .main-img img {
         height: 300px;
     }
