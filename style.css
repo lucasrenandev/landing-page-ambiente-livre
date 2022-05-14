@@ -124,10 +124,14 @@ main {
 
 /* Responsive Adjustment */
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 800px) {
     main {
         display: flex;
         flex-direction: column;
+    }
+
+    .main-text {
+        margin-left: 5px;
     }
 
     .main-text-footer {
