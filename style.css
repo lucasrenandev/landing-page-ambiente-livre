@@ -129,11 +129,7 @@ main {
         display: flex;
         flex-direction: column;
     }
-
-    .main-text {
-        margin-left: 5px;
-    }
-
+    
     .main-text-footer {
         width: 400px;
     }
