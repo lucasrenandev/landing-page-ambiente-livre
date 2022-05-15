@@ -138,7 +138,7 @@ main {
     }
 
     .main-img img {
-        height: 450px;
+        height: 460px;
     }
 }
 
@@ -163,6 +163,10 @@ main {
         align-items: center;
         width: 330px;
         ;
+    }
+
+    .main-img img {
+        height: 380px;
     }
 }
 
